@@ -1,7 +1,7 @@
 ﻿
 namespace QuanLyNganHang
 {
-    partial class Form1
+    partial class QuanLyNganHang
     {
         /// <summary>
         /// Required designer variable.
@@ -31,13 +31,14 @@ namespace QuanLyNganHang
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // QuanLyNganHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(939, 595);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(1138, 595);
+            this.Name = "QuanLyNganHang";
+            this.Text = "Quản lý ngân hàng";
+            this.Load += new System.EventHandler(this.QuanLyNganHang_Load);
             this.ResumeLayout(false);
 
         }

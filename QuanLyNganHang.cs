@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace QuanLyNganHang
 {
-    public partial class Form1 : Form
+    public partial class QuanLyNganHang : Form
     {
-        public Form1()
+        public QuanLyNganHang()
         {
             InitializeComponent();
+        }
+
+        private void QuanLyNganHang_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

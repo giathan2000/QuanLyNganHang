@@ -55,22 +55,31 @@
     <Compile Include="BO\NhanVienBO.cs" />
     <Compile Include="BO\TaiKhoanBO.cs" />
     <Compile Include="Common\DBConnection.cs" />
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="DAO\ChiNhanhDAO.cs" />
     <Compile Include="DAO\GD_ChuyenTienDAO.cs" />
     <Compile Include="DAO\GD_GuiRutDAO.cs" />
     <Compile Include="DAO\KhachHangDAO.cs" />
     <Compile Include="DAO\NhanVienDAO.cs" />
     <Compile Include="DAO\TaiKhoanDAO.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="QuanLyNganHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="QuanLyNganHang.Designer.cs">
+      <DependentUpon>QuanLyNganHang.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyNganHang.resx">
+      <DependentUpon>QuanLyNganHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
